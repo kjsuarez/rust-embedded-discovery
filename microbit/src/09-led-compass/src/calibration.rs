@@ -25,13 +25,9 @@ pub struct Calibration {
 impl Default for Calibration {
     fn default() -> Calibration {
         Calibration {
-            center: Measurement { x: 0, y: 0, z: 0 },
-            scale: Measurement {
-                x: 1024,
-                y: 1024,
-                z: 1024,
-            },
-            radius: 0,
+            center: Measurement { x: 5020, y: 5264, z: -22366 },
+            scale: Measurement {x: 1191, y: 1239, z: 1253 },
+            radius: 55738,
         }
     }
 }
